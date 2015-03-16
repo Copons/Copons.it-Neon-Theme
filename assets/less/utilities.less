@@ -1,5 +1,68 @@
-@color-neon:	#ff1177;
+@color-pink:	#ff1177;
+@color-blue:	#228dff;
+@color-yellow:	#ffdd1b;
+@color-green:	#b6ff00;
+@color-orange:	#ff9900;
+@color-violet:	#ba01ff;
 
+@color-neon:	@color-pink;
+
+
+
+
+// Radial Gradient Background (Prefixed) 
+
+.background-radial(@color-1, @color-2) {
+	background: @color-1;
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, @color-1), color-stop(100%, @color-2));
+	background: -webkit-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
+	background: -moz-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
+	background: -ms-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
+	background: -o-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
+	background: radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
+}
+
+
+
+
+// Linear (Diagonal) Gradient Background (Prefixed)
+// For Jagged Background use only!
+
+.background-linear-diagonal(@color) {
+	background-color: @color;
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(33.333%, @color), color-stop(33.333%, transparent), color-stop(66.667%,transparent), color-stop(66.667%, @color)), -webkit-gradient(linear, left top, right bottom, color-stop(33.333%, @color), color-stop(33.333%, transparent), color-stop(66.667%,transparent), color-stop(66.667%, @color));
+	background: -webkit-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
+	background: -moz-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
+	background: -ms-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
+	background: -o-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
+	background: linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
+}
+
+
+
+
+// Jagged Background
+
+.background-jagged(@color: #fff, @size: 20px) {
+	background-color: @color;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: -@size;
+		right: 0;
+		left: 0;
+		height: @size;
+		.background-linear-diagonal(@color);
+		background-size: (@size*2) (@size*4);
+		background-position: center -(@size*2);
+	}
+}
+
+
+
+
+// Neon Animation
 
 .neon-glow-1 {
 	color: #fff;
@@ -32,28 +95,162 @@
 	text-shadow: none;
 }
 
+.neon-animation {
+	-webkit-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
+	-ms-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
+	-o-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
+	animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
+	-webkit-animation-delay: 0s, 10s;
+	-moz-animation-delay: 0s, 10s;
+	-ms-animation-delay: 0s, 10s;
+	-o-animation-delay: 0s, 10s;
+	animation-delay: 0s, 10s;
+}
+.neon-broken-animation {
+	-webkit-animation: neon-broken 10s infinite;
+	-moz-animation: neon-broken 10s infinite;
+	-ms-animation: neon-broken 10s infinite;
+	-o-animation: neon-broken 10s infinite;
+	animation: neon-broken 10s infinite;
+}
 
-.background-jagged(@color: #fff, @size: 20px) {
-	&:before {
-		content: '';
-		display: block;
-		position: absolute;
-		top: -@size;
-		right: 0;
-		left: 0;
-		height: @size;
-		background:
-			linear-gradient(
-				45deg, @color 33.333%,
-				transparent 33.333%, transparent 66.667%,
-				@color 66.667%
-			),
-				linear-gradient(
-				-45deg, @color 33.333%,
-				transparent 33.333%, transparent 66.667%,
-				@color 66.667%
-			);
-		background-size: (@size*2) (@size*4);
-		background-position: center -(@size*2);
+@-webkit-keyframes neon-start {
+	20%, 70% {
+		.neon-off;
+	}
+	25%, 50%, 75%, 95%, 100% {
+		.neon-glow-1;
+	}
+	55% {
+		.neon-broken;
+	}
+}
+@-webkit-keyframes neon-glow {
+	from {
+		.neon-glow-1
+	}
+	to {
+		.neon-glow-2;
+	}
+}
+@-webkit-keyframes neon-broken {
+	21%, 39%, 45%, 47%, 53% {
+		.neon-off;
+	}
+	26%, 38%, 40%, 44%, 46%, 48% {
+		.neon-glow-2;
+	}
+}
+
+@-moz-keyframes neon-start {
+	20%, 70% {
+		.neon-off;
+	}
+	25%, 50%, 75%, 95%, 100% {
+		.neon-glow-1;
+	}
+	55% {
+		.neon-broken;
+	}
+}
+@-moz-keyframes neon-glow {
+	from {
+		.neon-glow-1
+	}
+	to {
+		.neon-glow-2;
+	}
+}
+@-moz-keyframes neon-broken {
+	21%, 39%, 45%, 47%, 53% {
+		.neon-off;
+	}
+	26%, 38%, 40%, 44%, 46%, 48% {
+		.neon-glow-2;
+	}
+}
+
+@-ms-keyframes neon-start {
+	20%, 70% {
+		.neon-off;
+	}
+	25%, 50%, 75%, 95%, 100% {
+		.neon-glow-1;
+	}
+	55% {
+		.neon-broken;
+	}
+}
+@-ms-keyframes neon-glow {
+	from {
+		.neon-glow-1
+	}
+	to {
+		.neon-glow-2;
+	}
+}
+@-ms-keyframes neon-broken {
+	21%, 39%, 45%, 47%, 53% {
+		.neon-off;
+	}
+	26%, 38%, 40%, 44%, 46%, 48% {
+		.neon-glow-2;
+	}
+}
+
+@-o-keyframes neon-start {
+	20%, 70% {
+		.neon-off;
+	}
+	25%, 50%, 75%, 95%, 100% {
+		.neon-glow-1;
+	}
+	55% {
+		.neon-broken;
+	}
+}
+@-o-keyframes neon-glow {
+	from {
+		.neon-glow-1
+	}
+	to {
+		.neon-glow-2;
+	}
+}
+@-o-keyframes neon-broken {
+	21%, 39%, 45%, 47%, 53% {
+		.neon-off;
+	}
+	26%, 38%, 40%, 44%, 46%, 48% {
+		.neon-glow-2;
+	}
+}
+
+@keyframes neon-start {
+	20%, 70% {
+		.neon-off;
+	}
+	25%, 50%, 75%, 95%, 100% {
+		.neon-glow-1;
+	}
+	55% {
+		.neon-broken;
+	}
+}
+@keyframes neon-glow {
+	from {
+		.neon-glow-1
+	}
+	to {
+		.neon-glow-2;
+	}
+}
+@keyframes neon-broken {
+	21%, 39%, 45%, 47%, 53% {
+		.neon-off;
+	}
+	26%, 38%, 40%, 44%, 46%, 48% {
+		.neon-glow-2;
 	}
 }

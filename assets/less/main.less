@@ -14,8 +14,11 @@ body {
 
 
 
-
+section {
+	position: relative;
+}
 .container {
+	padding-bottom: 60px;
 	h1 {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
@@ -40,8 +43,9 @@ body {
 	height: 80vh;
 	padding-right: 0;
 	padding-left: 0;
-	background: #111;
+	.background-radial(#222, #111);
 	overflow: hidden;
+
 	.container {
 		position: absolute;
 		height: 15%;
@@ -61,14 +65,11 @@ body {
 		font-weight: 400;
 
 		span {
-			-webkit-animation:
-				neon-start 10s ease-in,
-				neon-glow 1.5s ease-in-out infinite alternate;
-			-webkit-animation-delay: 0s, 10s;
+			.neon-animation;
 		}
 		span.broken {
 			color: #000;
-			-webkit-animation: neon-broken 10s infinite;
+			.neon-broken-animation;
 		}
 	}
 	small {
@@ -79,33 +80,7 @@ body {
 	}
 }
 
-@-webkit-keyframes neon-start {
-	20%, 70% {
-		.neon-off;
-	}
-	25%, 50%, 75%, 95%, 100% {
-		.neon-glow-1;
-	}
-	55% {
-		.neon-broken;
-	}
-}
-@-webkit-keyframes neon-glow {
-	from {
-		.neon-glow-1
-	}
-	to {
-		.neon-glow-2;
-	}
-}
-@-webkit-keyframes neon-broken {
-	21%, 39%, 45%, 47%, 53% {
-		.neon-off;
-	}
-	26%, 38%, 40%, 44%, 46%, 48% {
-		.neon-glow-2;
-	}
-}
+
 
 
 
@@ -116,6 +91,90 @@ body {
 	top: 80vh;
 	z-index: 2;
 	width: 100%;
-	background-color: #fff;
 	.background-jagged;
+}
+
+
+
+
+#about {
+	h1 span {
+		color: @color-blue;
+		font-weight: 700;
+	}
+}
+
+
+
+
+#skills {
+	.background-jagged(@color-blue);
+}
+
+
+
+
+#portfolio {
+	.background-jagged(@color-green);
+}
+
+
+
+
+#continue {
+	.background-jagged;
+}
+
+
+
+
+#games {
+	.background-jagged(@color-pink);
+}
+
+
+
+
+#music {
+	.background-jagged(@color-yellow);
+}
+
+
+
+
+#social {
+	.background-jagged;
+}
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 768px) {
+	#main-header {
+		h1 {
+			font-size: 42px;
+			small {
+				font-size: 18px;
+			}
+		}
+	}
+}*/
+
+
+
+
+@media (max-width: 500px) {
+	#main-header {
+		h1 {
+			font-size: 42px;
+			small {
+				font-size: 20px;
+			}
+		}
+	}
 }
