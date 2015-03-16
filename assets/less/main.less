@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Monoton|Montserrat:400,700|Open+Sans:400italic,700italic,400,700);
+
+@import 'utilities.less';
+
+
+
+
+body {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+
+
+
+.container {
+	h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		small {
+			display: block;
+			text-transform: none;
+		}
+	}
+}
+
+
+
+
+#main-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 80vh;
+	padding-right: 0;
+	padding-left: 0;
+	background: #111;
+	overflow: hidden;
+	.container {
+		position: absolute;
+		height: 15%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		padding: 0 !important;
+		overflow: visible;
+		white-space: nowrap;
+	}
+	h1 {
+		color: #000;
+		font-family: 'Monoton', sans-serif;
+		font-size: 90px;
+		font-weight: 400;
+
+		span {
+			-webkit-animation:
+				neon-start 10s ease-in,
+				neon-glow 1.5s ease-in-out infinite alternate;
+			-webkit-animation-delay: 0s, 10s;
+		}
+		span.broken {
+			color: #000;
+			-webkit-animation: neon-broken 10s infinite;
+		}
+	}
+	small {
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 44px;
+		font-weight: 400;
+	}
+}
+
+@-webkit-keyframes neon-start {
+	20%, 70% {
+		.neon-off;
+	}
+	25%, 50%, 75%, 95%, 100% {
+		.neon-glow-1;
+	}
+	55% {
+		.neon-broken;
+	}
+}
+@-webkit-keyframes neon-glow {
+	from {
+		.neon-glow-1
+	}
+	to {
+		.neon-glow-2;
+	}
+}
+@-webkit-keyframes neon-broken {
+	21%, 39%, 45%, 47%, 53% {
+		.neon-off;
+	}
+	26%, 38%, 40%, 44%, 46%, 48% {
+		.neon-glow-2;
+	}
+}
+
+
+
+
+.residual-container {
+	display: block;
+	position: absolute;
+	top: 80vh;
+	z-index: 2;
+	width: 100%;
+	background-color: #fff;
+	.background-jagged;
+}

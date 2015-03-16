@@ -1,0 +1,59 @@
+@color-neon:	#ff1177;
+
+
+.neon-glow-1 {
+	color: #fff;
+	text-shadow: 0 0 10px #fff,
+				0 0 20px  #fff,
+				0 0 30px  #fff,
+				0 0 40px  @color-neon,
+				0 0 70px  @color-neon,
+				0 0 80px  @color-neon,
+				0 0 100px @color-neon,
+				0 0 150px @color-neon;
+}
+.neon-glow-2 {
+	color: #fff;
+	text-shadow: 0 0 5px #fff,
+				0 0 10px #fff,
+				0 0 15px #fff,
+				0 0 20px @color-neon,
+				0 0 35px @color-neon,
+				0 0 40px @color-neon,
+				0 0 50px @color-neon,
+				0 0 75px @color-neon;
+}
+.neon-off {
+	color: #000;
+	text-shadow: none;
+}
+.neon-broken {
+	color: #222;
+	text-shadow: none;
+}
+
+
+.background-jagged(@color: #fff, @size: 20px) {
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: -@size;
+		right: 0;
+		left: 0;
+		height: @size;
+		background:
+			linear-gradient(
+				45deg, @color 33.333%,
+				transparent 33.333%, transparent 66.667%,
+				@color 66.667%
+			),
+				linear-gradient(
+				-45deg, @color 33.333%,
+				transparent 33.333%, transparent 66.667%,
+				@color 66.667%
+			);
+		background-size: (@size*2) (@size*4);
+		background-position: center -(@size*2);
+	}
+}
