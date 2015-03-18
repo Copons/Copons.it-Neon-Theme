@@ -36,6 +36,22 @@
 					this.list = PortfolioFactory.list;
 				}));
 
+			$scope.openWork = function (slug) {
+				$('[data-work="' + slug + '"]').show().animate({
+					marginLeft: 0
+				});
+				$('body').css({overflow:'hidden'});
+			};
+
+			$scope.closeWork = function (slug) {
+				$('[data-work="' + slug + '"]').animate({
+					marginLeft: '100%'
+				}, function () {
+					$(this).hide();
+				});
+				$('body').css({overflow:'auto'});
+			};
+
 		}])
 
 		.directive('portfolioList', function () {
@@ -46,49 +62,5 @@
 				controllerAs: 'portfolio'
 			};
 		});
-
-
-
-		/*.factory('PortfolioFactory', ['$q', '$http', '$location', function PortfolioFactory ($q, $http, $location) {
-
-			var portfolio = {};
-
-			portfolio.works = [];
-
-			portfolio.work = {};
-
-			portfolio.getWorks = function () {
-				var deferred = $q.defer();
-				$http.get('app/components/portfolio/works.json')
-					.success(function (data) {
-						portfolio.works = data;
-						deferred.resolve(data);
-					})
-					.error(function (data) {
-						deferred.reject(data);
-					});
-				return deferred.promise;
-			};
-
-			portfolio.getWork = function (slug) {
-				var deferred = $q.defer();
-				$http.get('app/components/portfolio/works.json')
-					.success(function (data) {
-						angular.forEach(data, function (item) {
-							if (item.slug == slug) {
-								portfolio.work = item;
-							}
-						});
-						deferred.resolve(data);
-					})
-					.error(function (data) {
-						deferred.reject(data);
-					});
-				return deferred.promise;
-			};
-
-			return portfolio;
-
-		}]);;*/
 
 })();

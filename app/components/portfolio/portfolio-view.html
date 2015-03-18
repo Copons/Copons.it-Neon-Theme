@@ -2,7 +2,7 @@
 
 	<div class="col-xs-6" ng-repeat="work in portfolio.list | orderBy:'-year'">
 
-		<a href="#work/{{work.slug}}" class="work-thumbnail">
+		<a class="work-thumbnail" ng-click="openWork(work.slug)">
 			<figure>
 				<img ng-show="work.imgs.length" ng-src="assets/img/{{work.slug}}/{{work.imgs[0]}}" alt="{{work.name}} Image" class="img-responsive" />
 				<figcaption>
@@ -11,7 +11,17 @@
 				</figcaption>
 			</figure>
 		</a>
-		
+
+		<div class="work-full modal modal-fullscreen" data-work="{{work.slug}}">
+			<div class="modal-wrapper">
+				<div class="modal-header">
+					<a class="close" ng-click="closeWork(work.slug)"><span>&times;</span></a>
+					<h4 class="modal-title">{{work.name}}</h4>
+				</div>
+				<p ng-bind-html="work.desc"></p>
+			</div>
+		</div>
+
 	</div>
 
 </div>

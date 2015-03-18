@@ -59,6 +59,23 @@
 	}
 }
 
+.background-jagged-h(@color: #fff, @size: 20px) {
+	background-color: @color;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		width: @size;
+		height: 100%;
+		.background-linear-diagonal(@color);
+		background-size: (@size*4) (@size*2);
+		background-position: -(@size*2) center;
+	}
+}
+
 
 
 

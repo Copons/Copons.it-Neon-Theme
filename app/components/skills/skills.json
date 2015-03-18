@@ -41,6 +41,10 @@
 		"type" : "development-tool"
 	},
 	{
+		"name" : "MAMP",
+		"type" : "development-tool"
+	},
+	{
 		"name" : "Adobe Photoshop",
 		"type" : "design-tool"
 	},
