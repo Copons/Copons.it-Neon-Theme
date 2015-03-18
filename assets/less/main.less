@@ -65,12 +65,12 @@ section {
 		font-weight: 400;
 
 		span {
-			.neon-animation;
+			.neon-glow-1;
 		}
 		span.broken {
-			color: #000;
-			.neon-broken-animation;
+			.neon-off;
 		}
+
 	}
 	small {
 		color: #fff;
@@ -79,6 +79,18 @@ section {
 		font-weight: 400;
 	}
 }
+
+// for the love of god, animations on desktop only
+html:not(.mobile) #main-header h1 {
+	span {
+		.neon-animation;
+	}
+	span.broken {
+		color: #000;
+		.neon-broken-animation;
+	}
+}
+
 
 
 
@@ -111,6 +123,7 @@ section {
 	color: #aaa;
 	.skills-list {
 		margin: 1.5em 0;
+		padding: 0;
 		text-align: center;
 	}
 	.label {
@@ -123,6 +136,7 @@ section {
 		line-height: 1.6;
 	}
 	.skills-legend {
+		padding: 0;
 		list-style: none;
 		text-align: center;
 		li {
@@ -160,6 +174,10 @@ section {
 #portfolio {
 	position: relative;
 	.background-jagged(@color-green);
+
+	.work-thumbnail {
+		cursor: pointer;
+	}
 
 	.work-full {
 		margin-left: 100%;
