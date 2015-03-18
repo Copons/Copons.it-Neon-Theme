@@ -100,7 +100,6 @@ section {
 #about {
 	h1 span {
 		color: @color-blue;
-		font-weight: 700;
 	}
 }
 
@@ -108,18 +107,50 @@ section {
 
 
 #skills {
-	.background-jagged(@color-blue);
-	p {
+	.background-jagged(#222);
+	color: #aaa;
+	.skills-list {
+		margin: 1.5em 0;
 		text-align: center;
 	}
 	.label {
 		display: inline-block;
 		margin: 7px 5px;
-		background-color: @color-pink;
+		color: #222;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 1.6;
+	}
+	.skills-legend {
+		list-style: none;
+		text-align: center;
+		li {
+			display: inline-block;
+			margin: 3px 10px;
+		}
+		span {
+			display: inline-block;
+			padding: 7px;
+		}
+	}
+	.web-development {
+		background-color: @color-blue;
+	}
+	.web-design {
+		background-color: @color-pink;
+	}
+	.development-tool {
+		background-color: @color-violet;
+	}
+	.design-tool {
+		background-color: @color-orange;
+	}
+	.game-design-tool {
+		background-color: @color-green;
+	}
+	.music-tool {
+		background-color: @color-yellow;
 	}
 }
 
