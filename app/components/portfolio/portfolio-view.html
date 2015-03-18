@@ -1,0 +1,17 @@
+<div class="row">
+
+	<div class="col-xs-6" ng-repeat="work in portfolio.list | orderBy:'-year'">
+
+		<a href="#work/{{work.slug}}" class="work-thumbnail">
+			<figure>
+				<img ng-show="work.imgs.length" ng-src="assets/img/{{work.slug}}/{{work.imgs[0]}}" alt="{{work.name}} Image" class="img-responsive" />
+				<figcaption>
+					<h3>{{work.name}}</h3>
+					<p ng-bind-html="work.desc"></p>
+				</figcaption>
+			</figure>
+		</a>
+		
+	</div>
+
+</div>

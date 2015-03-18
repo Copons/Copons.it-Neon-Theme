@@ -1,0 +1,175 @@
+[
+
+	{
+		"name" : "Apogeo",
+		"slug" : "apogeo",
+		"type" : [
+			"Wordpress",
+			"Code"
+		],
+		"year" : "2015",
+		"link" : "http://www.apogeoitalia.com/",
+		"desc" : "Soon to be released Wordpress theme for a showcase site. ",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg"
+		]
+	},
+
+	{
+		"name" : "Gioca Giuè 10",
+		"slug" : "gg10",
+		"type" : [
+			"Wordpress",
+			"Design",
+			"Code"
+		],
+		"year" : "2014",
+		"link" : "http://giocagiue.it",
+		"desc" : "10th version, fully responsive, of my own site's Wordpress theme.<br /><small>Some contents may be NSFW.</small>",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg",
+			"img-04.jpg",
+			"img-05.jpg"
+		]
+	},
+
+	{
+		"name" : "Hemingway Montagna",
+		"slug" : "hemingway",
+		"type" : [
+			"Wordpress",
+			"Code"
+		],
+		"year" : "2014",
+		"link" : "http://hemingwaymontagna.com/",
+		"desc" : "Wordpress theme and plugins, built around WooCommerce and several related professional grade plugins.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg",
+			"img-04.jpg"
+		]
+	},
+
+	{
+		"name" : "Sostenerti",
+		"slug" : "sostenerti",
+		"type" : [
+			"Wordpress",
+			"Design",
+			"Code"
+		],
+		"year" : "2013",
+		"link" : "http://sostenerti.it/",
+		"desc" : "Wordpress theme and plugins.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg"
+		]
+	},
+
+	{
+		"name" : "Cartoline dal Territorio",
+		"slug" : "cartoline",
+		"type" : [
+			"Wordpress",
+			"Web Design",
+			"Code"
+		],
+		"year" : "2013",
+		"link" : "http://www.cartolinedalterritorio.it/",
+		"desc" : "A full fledged web replica of an art book about photography and medicine.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg",
+			"img-04.jpg",
+			"img-05.jpg",
+			"img-06.jpg"
+		]
+	},
+	
+	{
+		"name" : "International CBRNe Master Courses",
+		"slug" : "mastercbrn",
+		"type" : [
+			"Code"
+		],
+		"year" : "2013",
+		"link" : "http://www.mastercbrn.com/",
+		"desc" : "Site for an university master courses, built over my own proprietary CMS.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg"
+		]
+	},
+	
+	{
+		"name" : "RG Factory",
+		"slug" : "rgfactory",
+		"type" : [
+			"Code"
+		],
+		"year" : "2012",
+		"link" : "http://rgfactory.it/",
+		"desc" : "Portfolio/showcase site built on my own proprietary CMS.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg"
+		]
+	},
+	
+	{
+		"name" : "Testa Architettura",
+		"slug" : "ftesta",
+		"type" : [
+			"Code"
+		],
+		"year" : "2010",
+		"link" : "http://www.ftesta.com/",
+		"desc" : "Portfolio/showcase site built on my own proprietary CMS.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg"
+		]
+	},
+	
+	{
+		"name" : "Metaphyx",
+		"slug" : "metaphyx",
+		"type" : [
+			"Code"
+		],
+		"year" : "2011",
+		"link" : "http://www.metaphyx.com/",
+		"desc" : "Portfolio/showcase site built on my own proprietary CMS.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg"
+		]
+	},
+	
+	{
+		"name" : "Copons/Steam",
+		"slug" : "copons-steam",
+		"type" : [
+			"Code"
+		],
+		"year" : "2013",
+		"link" : "http://www.copons.it/steam/",
+		"desc" : "An almost-fully-working prototype of a fully web based replacement for the Steam client library.<br />Its development halted when I learned that Steam APIs update habits are erratic at best and mostly disrespectful to older versions.<br />This is <a href='http://www.copons.it/steam/user/76561198009525451/' target='_blank'>my own account's public profile</a> showcasing part of the app's features.",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg"
+		]
+	}
+]
