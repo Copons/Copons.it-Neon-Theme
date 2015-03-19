@@ -20,15 +20,23 @@ section {
 .container {
 	padding-bottom: 60px;
 	h1 {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 700;
+		font-family: 'Monoton', sans-serif;
+		font-size: 42px;
+		font-weight: 400;
 		text-align: center;
 		text-transform: uppercase;
+		word-spacing: 10px;
 		small {
 			display: block;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 24px;
 			text-transform: none;
+			word-spacing: normal;
 		}
 	}
+}
+.page-header {
+	border-bottom: 4px double #eee;
 }
 
 
@@ -110,8 +118,11 @@ html:not(.mobile) #main-header h1 {
 
 
 #about {
-	h1 span {
+	h1 {
 		color: @color-blue;
+		span {
+			color: @color-pink;
+		}
 	}
 }
 
@@ -121,6 +132,15 @@ html:not(.mobile) #main-header h1 {
 #skills {
 	.background-jagged(#222);
 	color: #aaa;
+	.page-header {
+		border-bottom-color: #333;
+	}
+	h1 {
+		color: @color-pink;
+		small {
+			color: @color-violet;
+		}
+	}
 	.skills-list {
 		margin: 1.5em 0;
 		padding: 0;
@@ -174,7 +194,12 @@ html:not(.mobile) #main-header h1 {
 #portfolio {
 	position: relative;
 	.background-jagged(@color-green);
-
+	.page-header {
+		border-bottom-color: @color-orange;
+	}
+	h1 {
+		color: @color-blue;
+	}
 	.work-thumbnail {
 		cursor: pointer;
 	}
@@ -194,6 +219,9 @@ html:not(.mobile) #main-header h1 {
 
 #continue {
 	.background-jagged;
+	h1 {
+		color: @color-violet;
+	}
 }
 
 
@@ -201,6 +229,15 @@ html:not(.mobile) #main-header h1 {
 
 #games {
 	.background-jagged(@color-pink);
+	.page-header {
+		border-bottom-color: @color-blue;
+	}
+	h1 {
+		color: @color-green;
+		small {
+			color: @color-orange;
+		}
+	}
 }
 
 
@@ -208,6 +245,15 @@ html:not(.mobile) #main-header h1 {
 
 #music {
 	.background-jagged(@color-yellow);
+	.page-header {
+		border-bottom-color: @color-pink;
+	}
+	h1 {
+		color: @color-violet;
+		small {
+			color: @color-blue;
+		}
+	}
 }
 
 
@@ -215,8 +261,16 @@ html:not(.mobile) #main-header h1 {
 
 #social {
 	.background-jagged;
+	h1 {
+		color: @color-blue;
+	}
 }
 
+
+
+
+
+@import (less) 'loading-bar.min.css';
 
 
 

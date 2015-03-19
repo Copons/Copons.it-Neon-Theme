@@ -5,6 +5,8 @@
 
 	var app = angular.module('copons', [
 		'ngSanitize',
+		'ngAnimate',
+		'angular-loading-bar',
 		'skills',
 		'portfolio'
 	]);
