@@ -3,28 +3,49 @@
 	{
 		"name" : "Apogeo",
 		"slug" : "apogeo",
-		"type" : [
-			"Wordpress",
-			"Code"
-		],
 		"year" : "2015",
 		"link" : "http://www.apogeoitalia.com/",
-		"desc" : "Soon to be released Wordpress theme for a showcase site. ",
+		"desc" : "Soon to be released Wordpress theme for a showcase site.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
 			"img-03.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "WordPress",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 
 	{
 		"name" : "Gioca Giuè 10",
 		"slug" : "gg10",
-		"type" : [
-			"Wordpress",
-			"Design",
-			"Code"
-		],
 		"year" : "2014",
 		"link" : "http://giocagiue.it",
 		"desc" : "10th version, fully responsive, of my own site's Wordpress theme.<br /><small>Some contents may be NSFW.</small>",
@@ -34,16 +55,80 @@
 			"img-03.jpg",
 			"img-04.jpg",
 			"img-05.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "WordPress",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Design",
+				"type" : "web-design"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "Responsive",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
+		]
+	},
+
+	{
+		"name" : "Vodafone",
+		"slug" : "vodafone",
+		"year" : "2014",
+		"desc" : "Lorem ipsum",
+		"imgs" : [
+			"img-01.jpg",
+			"img-02.jpg",
+			"img-03.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Mobile",
+				"type" : "web-development"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "Responsive",
+				"type" : "web-design"
+			}
 		]
 	},
 
 	{
 		"name" : "Hemingway Montagna",
 		"slug" : "hemingway",
-		"type" : [
-			"Wordpress",
-			"Code"
-		],
 		"year" : "2014",
 		"link" : "http://hemingwaymontagna.com/",
 		"desc" : "Wordpress theme and plugins, built around WooCommerce and several related professional grade plugins.",
@@ -52,6 +137,36 @@
 			"img-02.jpg",
 			"img-03.jpg",
 			"img-04.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "WordPress",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 
@@ -70,6 +185,40 @@
 			"img-01.jpg",
 			"img-02.jpg",
 			"img-03.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "WordPress",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Design",
+				"type" : "web-design"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 
@@ -91,6 +240,36 @@
 			"img-04.jpg",
 			"img-05.jpg",
 			"img-06.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Design",
+				"type" : "web-design"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 	
@@ -107,6 +286,36 @@
 			"img-01.jpg",
 			"img-02.jpg",
 			"img-03.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Custom CMS",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 	
@@ -123,6 +332,36 @@
 			"img-01.jpg",
 			"img-02.jpg",
 			"img-03.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Custom CMS",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 	
@@ -139,6 +378,36 @@
 			"img-01.jpg",
 			"img-02.jpg",
 			"img-03.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Custom CMS",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 	
@@ -155,6 +424,36 @@
 			"img-01.jpg",
 			"img-02.jpg",
 			"img-03.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Custom CMS",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	},
 	
@@ -170,6 +469,36 @@
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg"
+		],
+		"skills" : [
+			{
+				"name" : "Programming",
+				"type" : "web-development"
+			},
+			{
+				"name" : "PHP",
+				"type" : "web-development"
+			},
+			{
+				"name" : "MySQL",
+				"type" : "web-development"
+			},
+			{
+				"name" : "Design",
+				"type" : "web-design"
+			},
+			{
+				"name" : "HTML5",
+				"type" : "web-design"
+			},
+			{
+				"name" : "CSS3",
+				"type" : "web-design"
+			},
+			{
+				"name" : "jQuery",
+				"type" : "web-design"
+			}
 		]
 	}
 ]

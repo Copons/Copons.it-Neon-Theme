@@ -13,6 +13,10 @@
 		"type" : "web-design"
 	},
 	{
+		"name" : "Responsive",
+		"type" : "web-design"
+	},
+	{
 		"name" : "PHP",
 		"type" : "web-development"
 	},
@@ -26,7 +30,7 @@
 	},
 	{
 		"name" : "jQuery",
-		"type" : "web-development"
+		"type" : "web-design"
 	},
 	{
 		"name" : "AngularJS",

@@ -39,8 +39,9 @@
 			$scope.openWork = function (slug) {
 				$('[data-work="' + slug + '"]').show().animate({
 					marginLeft: 0
+				}, function () {
+					$('body').css({overflow:'hidden'});
 				});
-				$('body').css({overflow:'hidden'});
 			};
 
 			$scope.closeWork = function (slug) {
@@ -48,8 +49,8 @@
 					marginLeft: '100%'
 				}, function () {
 					$(this).hide();
+					$('body').css({overflow:'auto'});
 				});
-				$('body').css({overflow:'auto'});
 			};
 
 		}])

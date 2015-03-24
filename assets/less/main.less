@@ -117,6 +117,52 @@ html:not(.mobile) #main-header h1 {
 
 
 
+.portfolio {
+	.work-thumbnail {
+		display: block;
+		margin-bottom: 20px;
+		&:hover h3 {
+			color: @color-pink;
+		}
+	}
+	figure {
+		display: block;
+		position: relative;
+		border: 5px solid #161616;
+		overflow: hidden;
+		&:hover, &:focus {
+			figcaption {
+				left: 0;
+				p {
+					display: block;
+				}
+			}
+		}
+	}
+	figcaption {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding: 10px;
+		background-color: rgba(0,0,0,0.8);
+		color: #aaa;
+		font-size: 14px;
+		h3 {
+			margin: 0;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+		}
+		p {
+			margin: 5px 0 0 0;
+			//display: none;
+		}
+	}
+}
+
+
+
+
 #about {
 	.container-colors(#111, #555);
 	h1 {
@@ -172,24 +218,24 @@ html:not(.mobile) #main-header h1 {
 			padding: 7px;
 		}
 	}
-	.web-development {
-		background-color: @color-green;
-	}
-	.web-design {
-		background-color: @color-blue;
-	}
-	.development-tool {
-		background-color: @color-violet;
-	}
-	.design-tool {
-		background-color: @color-orange;
-	}
-	.game-design-tool {
-		background-color: @color-pink;
-	}
-	.music-tool {
-		background-color: @color-yellow;
-	}
+}
+.web-development {
+	background-color: @color-green;
+}
+.web-design {
+	background-color: @color-blue;
+}
+.development-tool {
+	background-color: @color-violet;
+}
+.design-tool {
+	background-color: @color-orange;
+}
+.game-design-tool {
+	background-color: @color-pink;
+}
+.music-tool {
+	background-color: @color-yellow;
 }
 
 
@@ -207,10 +253,67 @@ html:not(.mobile) #main-header h1 {
 
 	.work-full {
 		margin-left: 100%;
+		//display: block;
+		//margin: 0;
 		.modal-wrapper {
 			height: 100%;
 			margin-left: 20px;
+			padding: 20px;
+			overflow: auto;
 			.background-jagged-h;
+		}
+		.modal-header {
+			border: none;
+			font-family: 'Montserrat', sans-serif;
+			h4 {
+				color: @color-blue;
+				font-size: 30px;
+			}
+			a.close {
+				display: inline-block;
+				padding: 0 12px;
+ 				opacity: 1;
+ 				border-radius: 50%;
+				color: #aaa;
+				font-size: 40px;
+				line-height: 45px;
+				text-shadow: none;
+				&:hover {
+					color: @color-pink;
+				}
+			}
+		}
+		p {
+			padding: 0 16px;
+			a {
+				color: @color-pink;
+			}
+		}
+		.work-meta {
+			padding-bottom: 1em;
+			font-family: 'Montserrat', sans-serif;
+			a {
+				color: @color-pink;
+				font-weight: 700;
+			}
+		}
+		.work-skills {
+			padding: 1em 10px 0 10px;
+		}
+		.label {
+			display: inline-block;
+			margin: 7px 5px;
+			color: lighten(#111, 3%);
+			font-family: 'Montserrat', sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.6;
+		}
+		.row {
+			img {
+				margin: 15px 0;
+				border: 5px solid #ccc;
+			}
 		}
 	}
 }
@@ -245,7 +348,7 @@ html:not(.mobile) #main-header h1 {
 
 
 #music {
-	.container-colors(lighten(#111, 15%), #777);
+	.container-colors(lighten(#111, 15%), #888);
 	h1 {
 		color: @color-yellow;
 		small {
@@ -263,6 +366,7 @@ html:not(.mobile) #main-header h1 {
 		color: @color-blue;
 	}
 	.social-icons {
+		padding: 0;
 		list-style: none;
 		font-size: 24px;
 		line-height: 1;
@@ -325,26 +429,26 @@ html:not(.mobile) #main-header h1 {
 
 
 
+#main-footer {
+	position: relative;
+	.container-colors(#060606, #444);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	.container {
+		padding: 15px;
+	}
+}
+
+
+
+
 
 @import (less) 'loading-bar.min.css';
 
 
 
 
-
-
-
-
-/*@media (max-width: 768px) {
-	#main-header {
-		h1 {
-			font-size: 42px;
-			small {
-				font-size: 18px;
-			}
-		}
-	}
-}*/
 
 
 
@@ -357,5 +461,22 @@ html:not(.mobile) #main-header h1 {
 				font-size: 20px;
 			}
 		}
+	}
+	.container {
+		h1 {
+			font-size: 30px;
+			small {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+
+
+
+@media (max-width: 600px) {
+	.portfolio .row .col-xs-6 {
+		width: 100%;
 	}
 }
