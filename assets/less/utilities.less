@@ -79,6 +79,19 @@
 
 
 
+// Container Colors
+
+.container-colors(@background, @text) {
+	.background-jagged(@background);
+	color: @text;
+	.page-header {
+		border-bottom-color: lighten(@background, 5%);
+	}
+}
+
+
+
+
 // Neon Animation
 
 .neon-glow-1 {
