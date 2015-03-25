@@ -1,11 +1,11 @@
 [
 
 	{
-		"name" : "Apogeo",
+		"name" : "Apogeo Italia",
 		"slug" : "apogeo",
 		"year" : "2015",
 		"link" : "http://www.apogeoitalia.com/",
-		"desc" : "Soon to be released Wordpress theme for a showcase site.",
+		"desc" : "Soon to be released Wordpress theme for one of the leading Italian gadgets production and customization companies.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -48,7 +48,7 @@
 		"slug" : "gg10",
 		"year" : "2014",
 		"link" : "http://giocagiue.it",
-		"desc" : "10th version, fully responsive, of my own site's Wordpress theme.<br /><small>Some contents may be NSFW.</small>",
+		"desc" : "The 10th version, fully responsive, of my own site's Wordpress theme.<br />Gioca Giuè talks about videogames in a satirical and over the edge fashion, with barely any editorial control over its authors, ensuring complete freedom of expression.<br />In five years we have beenp proudly threatened with two legal actions, but we're still hanging this side of jail.<br /><small>Some contents may be NSFW.</small>",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -100,7 +100,7 @@
 		"name" : "Vodafone - Smart VCNO Ops",
 		"slug" : "vodafone",
 		"year" : "2014",
-		"desc" : "Vodafone Core Network and Operations",
+		"desc" : "The graphic framework for the Vodafone Core Network and Operations technical support mobile app.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -131,7 +131,7 @@
 		"slug" : "hemingway",
 		"year" : "2014",
 		"link" : "http://hemingwaymontagna.com/",
-		"desc" : "Wordpress theme and plugins, built around WooCommerce and several related professional grade plugins.",
+		"desc" : "Wordpress theme and plugins, built around WooCommerce and several related professional grade plugins, for a deluxe outdoor equipment store.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -180,7 +180,7 @@
 		],
 		"year" : "2013",
 		"link" : "http://sostenerti.it/",
-		"desc" : "Wordpress theme and plugins.",
+		"desc" : "Wordpress theme and plugins for an eldercare cooperative company.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -232,7 +232,7 @@
 		],
 		"year" : "2013",
 		"link" : "http://www.cartolinedalterritorio.it/",
-		"desc" : "A full fledged web replica of an art book about photography and medicine.",
+		"desc" : "A full fledged web replica of an art book about photography and medicine produced by Merck, one of the largest pharmaceutical companies in the world.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -281,7 +281,7 @@
 		],
 		"year" : "2013",
 		"link" : "http://www.mastercbrn.com/",
-		"desc" : "Site for an university master courses, built over my own proprietary CMS.",
+		"desc" : "Website built on my own proprietary CMS, for the Protection against CBRNe (Chemical, Biological, Radiological, Nuclear and explosive) Events master, held by University of Rome Tor Vergata.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -327,7 +327,7 @@
 		],
 		"year" : "2012",
 		"link" : "http://rgfactory.it/",
-		"desc" : "Portfolio/showcase site built on my own proprietary CMS.",
+		"desc" : "Portfolio/showcase site built on my own proprietary CMS for a video production agency.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -373,7 +373,7 @@
 		],
 		"year" : "2010",
 		"link" : "http://www.ftesta.com/",
-		"desc" : "Portfolio/showcase site built on my own proprietary CMS.",
+		"desc" : "Portfolio/showcase site built on my own proprietary CMS for an architect studio.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -419,7 +419,7 @@
 		],
 		"year" : "2011",
 		"link" : "http://www.metaphyx.com/",
-		"desc" : "Portfolio/showcase site built on my own proprietary CMS.",
+		"desc" : "Portfolio/showcase site built on my own proprietary CMS for a post-production company.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -465,7 +465,7 @@
 		],
 		"year" : "2013",
 		"link" : "http://www.copons.it/steam/",
-		"desc" : "An almost-fully-working prototype of a fully web based replacement for the Steam client library.<br />Its development halted when I learned that Steam APIs update habits are erratic at best and mostly disrespectful to older versions.<br />This is <a href='http://www.copons.it/steam/user/76561198009525451/' target='_blank'>my own account's public profile</a> showcasing part of the app's features.",
+		"desc" : "An almost-fully-working prototype of a web based replacement for the Steam client library.<br />Its development halted when I learned that Steam APIs update habits are erratic at best and mostly disrespectful to legacy code.<br />This is <a href='http://www.copons.it/steam/user/76561198009525451/' target='_blank'>my own account's public profile</a> showcasing part of the app's features.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg"
