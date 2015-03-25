@@ -1,0 +1,11 @@
+<div id="cd-timeline">
+	<div class="cd-timeline-block clearfix" ng-repeat="item in resume.list | orderBy:'-ord'">
+		<div class="cd-timeline-img {{item.color}}"></div>
+		<div class="cd-timeline-content clearfix {{item.type}}">
+			<h3>{{item.name}}</h3>
+			<h4 ng-show="item.pos">{{item.pos}}</h4>
+			<p ng-bind-html="item.desc" ng-show="item.desc"></p>
+			<span class="cd-date">{{item.year}}</span>
+		</div>
+	</div>
+</div>

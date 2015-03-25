@@ -1,0 +1,94 @@
+[
+	{
+		"name" : "The Future!",
+		"ord" : "2100-01",
+		"type" : "single",
+		"desc" : "I'm probably just going to get a cup of coffee now."
+	},
+	{
+		"name" : "Quit H25 Media Agency",
+		"ord" : "2014-12",
+		"type" : "end",
+		"year" : "December 2014",
+		"color" : "none"
+	},
+	{
+		"name" : "Carito & Partners Factory",
+		"ord" : "2014-02",
+		"type" : "single",
+		"year" : "February 2014",
+		"pos" : "Web Designer",
+		"desc" : "Development of a fully responsive graphic framework for a Vodafone technical support mobile application.",
+		"color" : "web-design"
+	},
+	{
+		"name" : "Quit Waking Dreams Communications",
+		"ord" : "2010-03",
+		"type" : "end",
+		"year" : "March 2010",
+		"color" : "none"
+	},
+	{
+		"name" : "Waking Dreams Communications",
+		"ord" : "2009-12",
+		"type" : "start",
+		"year" : "December 2009",
+		"pos" : "Lead Web Designer",
+		"desc" : "Design and development of web sites and applications, such as touch screen multimedia kiosks in Adobe Flash for several clients among which Disney for the Italian campaign of the movie Alice in Wonderland.",
+		"color" : "web-design"
+	},
+	{
+		"name" : "Quit Planet Seven",
+		"ord" : "2009-11",
+		"type" : "end",
+		"year" : "November 2009",
+		"color" : "none"
+	},
+	{
+		"name" : "Quit Istituto Professionale Sisto V",
+		"ord" : "2009-05",
+		"type" : "end",
+		"year" : "May 2009",
+		"color" : "none"
+	},
+	{
+		"name" : "H25 Media Agency",
+		"ord" : "2008-12",
+		"type" : "start",
+		"year" : "December 2008",
+		"pos" : "Founder, Lead Web Developer, UI/UX Designer",
+		"desc" : "Design and development of web sites and applications, especially proprietary CMS and WordPress themes and plugins<br />Also: advertisement jingles composer; script supervisor and camera operator for several documentary films produced for Rai 2, one of the main Italian networks.",
+		"color" : "web-development"
+	},
+	{
+		"name" : "Istituto Professionale Sisto V",
+		"ord" : "2007-10",
+		"type" : "start",
+		"year" : "October 2007",
+		"pos" : "Teacher",
+		"desc" : "Teaching of basic information technology and web design fundamentals to high school last year students.",
+		"color" : "design-tools"
+	},
+	{
+		"name" : "Planet Seven",
+		"ord" : "2006-06",
+		"type" : "start",
+		"year" : "June 2006",
+		"pos" : "Web Developer",
+		"desc" : "Development of large scale web sites and applications, especially proprietary CMS, with great care for accessibility.",
+		"color" : "web-development"
+	},
+	{
+		"name" : "Boom! All grown up!",
+		"ord" : "2002-07",
+		"type" : "single",
+		"desc" : "Also now I can legitimately drink!"
+	},
+	{
+		"name" : "Birthday, yay!",
+		"ord" : "1984-07",
+		"type" : "single",
+		"year" : "7th July 1984"
+	}
+
+]
