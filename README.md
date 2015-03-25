@@ -21,3 +21,4 @@ External Assets
 * [Busted Neon](http://www.broken-links.com/2011/06/27/a-busted-neon-sign-with-css-animations/) by Peter Gasston
 * [Vertical Timeline](http://codyhouse.co/gem/vertical-timeline/) by Sebastiano Guerriero
 * [reCAPTCHA Mailhide](http://www.google.com/recaptcha/mailhide/apikey)
+* [Real Favicon Generator](http://realfavicongenerator.net/)
