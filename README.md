@@ -1,7 +1,7 @@
 Copons.it Neon Theme
 ====================
 
-Full revamp for my personal website.
+Full revamp of my personal website.
 
 
 External Assets
