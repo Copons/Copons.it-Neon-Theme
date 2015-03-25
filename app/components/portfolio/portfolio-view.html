@@ -27,11 +27,21 @@
 						{{skill.name}}
 					</li>
 				</ul>
-				<div class="row" ng-show="work.imgs.length">
-					<div class="col-sm-6 col-sm-offset-3" ng-repeat="image in work.imgs" ng-if="$index > 0" portfolio-gallery>
+				<!--<div class="row" ng-show="work.imgs.length">
+					<div class="col-sm-6 col-sm-offset-3" ng-repeat="image in work.imgs" ng-if="$index > 0">
 						<img ng-src="assets/img/{{work.slug}}/{{image}}" class="img-responsive" />
 					</div>
-			</div>
+				</div>-->
+				<div class="swiper-container" ng-show="work.imgs.length">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" ng-repeat="image in work.imgs" ng-if="$index > 0">
+							<img data-src="assets/img/{{work.slug}}/{{image}}" class="img-responsive swiper-lazy" />
+							<div class="swiper-lazy-preloader"></div>
+						</div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
 			</div>
 		</div>
 

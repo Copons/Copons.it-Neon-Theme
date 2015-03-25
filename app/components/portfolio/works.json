@@ -97,10 +97,10 @@
 	},
 
 	{
-		"name" : "Vodafone",
+		"name" : "Vodafone - Smart VCNO Ops",
 		"slug" : "vodafone",
 		"year" : "2014",
-		"desc" : "Lorem ipsum",
+		"desc" : "Vodafone Core Network and Operations",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",

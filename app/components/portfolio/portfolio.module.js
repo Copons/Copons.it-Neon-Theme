@@ -41,6 +41,17 @@
 					marginLeft: 0
 				}, function () {
 					$('body').css({overflow:'hidden'});
+					workSwiper = new Swiper('.swiper-container', {
+						loop: true,
+						initialSlide: 0,
+						nextButton: '.swiper-button-next',
+						prevButton: '.swiper-button-prev',
+						preloadImages: false,
+						lazyLoading: true,
+						slidesPerView: 1,
+						spaceBetween: 15,
+						grabCursor: true
+					});
 				});
 			};
 
