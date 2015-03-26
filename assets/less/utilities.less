@@ -14,11 +14,11 @@
 
 .background-radial(@color-1, @color-2) {
 	background: @color-1;
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, @color-1), color-stop(100%, @color-2));
+	/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, @color-1), color-stop(100%, @color-2));
 	background: -webkit-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
 	background: -moz-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
 	background: -ms-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
-	background: -o-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
+	background: -o-radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);*/
 	background: radial-gradient(center, ellipse cover, @color-1 0%, @color-2 100%);
 }
 
@@ -30,11 +30,11 @@
 
 .background-linear-diagonal(@color) {
 	background-color: @color;
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(33.333%, @color), color-stop(33.333%, transparent), color-stop(66.667%,transparent), color-stop(66.667%, @color)), -webkit-gradient(linear, left top, right bottom, color-stop(33.333%, @color), color-stop(33.333%, transparent), color-stop(66.667%,transparent), color-stop(66.667%, @color));
+	/*background: -webkit-gradient(linear, left bottom, right top, color-stop(33.333%, @color), color-stop(33.333%, transparent), color-stop(66.667%,transparent), color-stop(66.667%, @color)), -webkit-gradient(linear, left top, right bottom, color-stop(33.333%, @color), color-stop(33.333%, transparent), color-stop(66.667%,transparent), color-stop(66.667%, @color));
 	background: -webkit-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
 	background: -moz-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
 	background: -ms-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
-	background: -o-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
+	background: -o-linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);*/
 	background: linear-gradient(45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%), -webkit-linear-gradient(-45deg, @color 33.333%, transparent 33.333%, transparent 66.667%, @color 66.667%);
 }
 
@@ -127,26 +127,26 @@
 }
 
 .neon-animation {
-	-webkit-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
+	/*-webkit-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
 	-moz-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
 	-ms-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
-	-o-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
+	-o-animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;*/
 	animation: neon-start 10s ease-in, neon-glow 1.5s ease-in-out infinite alternate;
-	-webkit-animation-delay: 0s, 10s;
+	/*-webkit-animation-delay: 0s, 10s;
 	-moz-animation-delay: 0s, 10s;
 	-ms-animation-delay: 0s, 10s;
-	-o-animation-delay: 0s, 10s;
+	-o-animation-delay: 0s, 10s;*/
 	animation-delay: 0s, 10s;
 }
 .neon-broken-animation {
-	-webkit-animation: neon-broken 10s infinite;
+	/*-webkit-animation: neon-broken 10s infinite;
 	-moz-animation: neon-broken 10s infinite;
 	-ms-animation: neon-broken 10s infinite;
-	-o-animation: neon-broken 10s infinite;
+	-o-animation: neon-broken 10s infinite;*/
 	animation: neon-broken 10s infinite;
 }
 
-@-webkit-keyframes neon-start {
+/*@-webkit-keyframes neon-start {
 	20%, 70% {
 		.neon-off;
 	}
@@ -256,7 +256,7 @@
 	26%, 38%, 40%, 44%, 46%, 48% {
 		.neon-glow-2;
 	}
-}
+}*/
 
 @keyframes neon-start {
 	20%, 70% {

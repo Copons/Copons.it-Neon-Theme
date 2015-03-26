@@ -16,3 +16,8 @@
 	]);
 
 })();
+
+//@prepros-append shared/utilities.module.js
+//@prepros-append components/skills/skills.module.js
+//@prepros-append components/portfolio/portfolio.module.js
+//@prepros-append components/resume/resume.module.js
