@@ -5,7 +5,7 @@
 		"slug" : "apogeo",
 		"year" : "2015",
 		"link" : "http://www.apogeoitalia.com/",
-		"desc" : "Soon to be released Wordpress theme for one of the leading Italian gadgets production and customization companies.",
+		"desc" : "Soon to be released WordPress theme for one of the leading Italian gadgets production and customization companies.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -48,7 +48,7 @@
 		"slug" : "gg10",
 		"year" : "2014",
 		"link" : "http://giocagiue.it",
-		"desc" : "The 10th version, fully responsive, of my own site's Wordpress theme.<br />Gioca Giuè talks about videogames in a satirical and over the edge fashion, with barely any editorial control over its authors, ensuring complete freedom of expression.<br />In five years we have been proudly threatened with two legal actions, but we're still hanging this side of jail.<br /><small>Some contents may be NSFW.</small>",
+		"desc" : "The 10th version, fully responsive, of my own site's WordPress theme.<br />Gioca Giuè talks about videogames in a satirical and over the edge fashion, with barely any editorial control over its authors, ensuring complete freedom of expression.<br />In five years we have been proudly threatened with two legal actions, but we're still hanging this side of jail.<br /><small>Some contents may be NSFW.</small>",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -131,7 +131,7 @@
 		"slug" : "hemingway",
 		"year" : "2014",
 		"link" : "http://hemingwaymontagna.com/",
-		"desc" : "Wordpress theme and plugins, built around WooCommerce and several related professional grade plugins, for a deluxe outdoor equipment store.",
+		"desc" : "WordPress theme and plugins, built around WooCommerce and several related professional grade plugins, for a deluxe outdoor equipment store.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -174,13 +174,13 @@
 		"name" : "Sostenerti",
 		"slug" : "sostenerti",
 		"type" : [
-			"Wordpress",
+			"WordPress",
 			"Design",
 			"Code"
 		],
 		"year" : "2013",
 		"link" : "http://sostenerti.it/",
-		"desc" : "Wordpress theme and plugins for an eldercare cooperative company.",
+		"desc" : "WordPress theme and plugins for an eldercare cooperative company.",
 		"imgs" : [
 			"img-01.jpg",
 			"img-02.jpg",
@@ -226,7 +226,7 @@
 		"name" : "Cartoline dal Territorio",
 		"slug" : "cartoline",
 		"type" : [
-			"Wordpress",
+			"WordPress",
 			"Web Design",
 			"Code"
 		],
@@ -272,7 +272,7 @@
 			}
 		]
 	},
-	
+
 	{
 		"name" : "International CBRNe Master Courses",
 		"slug" : "mastercbrn",
@@ -318,7 +318,7 @@
 			}
 		]
 	},
-	
+
 	{
 		"name" : "RG Factory",
 		"slug" : "rgfactory",
@@ -364,7 +364,7 @@
 			}
 		]
 	},
-	
+
 	{
 		"name" : "Testa Architettura",
 		"slug" : "ftesta",
@@ -410,7 +410,7 @@
 			}
 		]
 	},
-	
+
 	{
 		"name" : "Metaphyx",
 		"slug" : "metaphyx",
@@ -456,7 +456,7 @@
 			}
 		]
 	},
-	
+
 	{
 		"name" : "Copons/Steam",
 		"slug" : "copons-steam",
