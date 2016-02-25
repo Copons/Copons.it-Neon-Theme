@@ -1,5 +1,16 @@
 [
-
+	{
+		"name" : "AngularJS",
+		"type" : "web-development"
+	},
+	{
+		"name" : "JavaScript",
+		"type" : "web-development"
+	},
+	{
+		"name" : "ECMAScript 2015",
+		"type" : "web-development"
+	},
 	{
 		"name" : "WordPress",
 		"type" : "web-development"
@@ -10,6 +21,18 @@
 	},
 	{
 		"name" : "CSS3",
+		"type" : "web-design"
+	},
+	{
+		"name" : "SASS",
+		"type" : "web-design"
+	},
+	{
+		"name" : "LESS",
+		"type" : "web-design"
+	},
+	{
+		"name" : "Bootstrap",
 		"type" : "web-design"
 	},
 	{
@@ -25,27 +48,19 @@
 		"type" : "web-development"
 	},
 	{
-		"name" : "JavaScript",
-		"type" : "web-development"
-	},
-	{
-		"name" : "jQuery",
-		"type" : "web-design"
-	},
-	{
-		"name" : "AngularJS",
-		"type" : "web-development"
-	},
-	{
-		"name" : "GitHub",
+		"name" : "Node.js / npm",
 		"type" : "development-tool"
 	},
 	{
-		"name" : "Sublime Text 3",
+		"name" : "webpack",
 		"type" : "development-tool"
 	},
 	{
-		"name" : "MAMP",
+		"name" : "Grunt",
+		"type" : "development-tool"
+	},
+	{
+		"name" : "Git",
 		"type" : "development-tool"
 	},
 	{
